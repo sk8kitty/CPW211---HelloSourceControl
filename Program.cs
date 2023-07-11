@@ -80,7 +80,7 @@ static void Cats()
     Console.WriteLine(cat2); 
     Console.WriteLine(cat3);
     Console.WriteLine();
-
+    Console.WriteLine();
     MainMenu();
 }
 
@@ -123,5 +123,31 @@ static void Buzzfeed()
 
 static void Cookies()
 {
-    throw new NotImplementedException();
+    Console.WriteLine("Chocolate Chip Cookies");
+    Console.WriteLine("A classic recipe from 'Better Homes and Cooking'");
+    Console.WriteLine("Makes about 40 1-tbsp cookies");
+    Console.WriteLine();
+    Console.WriteLine("Ingredient List:");
+    Console.WriteLine("1 stick (= 1 cup) of Crisco shortening");
+    Console.WriteLine("1 cup packed brown sugar");
+    Console.WriteLine("1/2 cup regular cane sugar");
+    Console.WriteLine("1/2 tsp baking soda");
+    Console.WriteLine("1 tsp vanilla extract");
+    Console.WriteLine("2 eggs");
+    Console.WriteLine("2 1/2 cups all purpose flour");
+    Console.WriteLine("12 oz unsweetened chocolate chips");
+    Console.WriteLine();
+    Console.WriteLine("Instructions:");
+    Console.WriteLine("Cream shortening and sugars until extremely smooth, no chunks");
+    Console.WriteLine("Add baking soda, eggs, and vanilla until well combined");
+    Console.WriteLine("Add flour by the scoop, stirring each scoop in");
+    Console.WriteLine("Add chocolate chips and fold dough over until well combined");
+    Console.WriteLine();
+    Console.WriteLine("Roll dough into balls of desired size and place on baking sheet");
+    Console.WriteLine("10 cookies per sheet reccomended; press dough balls into even thickness for best results");
+    Console.WriteLine("Chill in fridge for 1 hour");
+    Console.WriteLine("Bake at 375F for 8-10 minutes (dependent on baking sheet size)");
+    Console.WriteLine();
+    Console.WriteLine();
+    MainMenu();
 }
