@@ -33,13 +33,60 @@ static void MainMenu()
 
 static void Cats()
 {
-    throw new NotImplementedException();
+    string title = @"
+       _____    __________________ .___.___      _________     _________________________
+      /  _  \  /   _____/\_   ___ \|   |   |     \_   ___ \   /  _  \__    ___/   _____/
+     /  /_\  \ \_____  \ /    \  \/|   |   |     /    \  \/  /  /_\  \|    |  \_____  \ 
+    /    |    \/        \\     \___|   |   |     \     \____/    |    \    |  /        \
+    \____|__  /_______  / \______  /___|___|      \______  /\____|__  /____| /_______  /
+            \/        \/         \/                      \/         \/               \/ 
+                                                                ";
+    Console.WriteLine(title);
+    Console.WriteLine();
+
+    string cat1 = @"
+               __..--''``---....___   _..._    __
+     /// //_.-'    .-/"";  `        ``<._  ``.''_ `. / // /
+    ///_.-' _..--.'_    \                    `( ) ) // //
+    / (_..-' // (< _     ;_..__               ; `' / ///
+     / // // //  `-._,_)' // / ``--...____..-' /// / // 
+                                                                 ";
+
+    string cat2 = @"
+                   _ |\_
+                   \` ..\
+              __,.-"" =__Y=
+            .""        )
+      _    /   ,    \/\_
+     ((____|    )_-\ \_-`
+     `-----'`-----` `--`
+                                                                 ";
+
+    string cat3 = @"
+           ,-.       _,---._ __  / \
+     /  )    .-'       `./ /   \
+    (  (   ,'            `/    /|
+     \  `-""             \'\   / |
+      `.              ,  \ \ /  |
+       /`.          ,'-`----Y   |
+      (            ;        |   '
+      |  ,-.    ,-'         |  /
+      |  | (   |            | /
+      )  |  \  `.___________|/
+      `--'   `--'
+                                                                 ";
+
+    Console.WriteLine(cat1);
+    Console.WriteLine(cat2); 
+    Console.WriteLine(cat3);
+    Console.WriteLine();
+
+    MainMenu();
 }
 
 static void Buzzfeed()
 {
-
-    Console.WriteLine("( Enter 'Z' to quit )");
+    Console.WriteLine("( Enter 'Z' to quit to menu )");
     Console.WriteLine("BUZZFEED! This simple question will decide what kind of cake you are. Pick one:");
     Console.WriteLine("A. Cat \nB. Dog \nC. Mouse \nD. Horse");
 
