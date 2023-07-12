@@ -3,10 +3,19 @@ MainMenu();
 
 static void MainMenu()
 {
+    string title = @"
+               .__                                      
+      _____ _____  |__| ____     _____   ____   ____  __ __ 
+     /     \\__  \ |  |/    \   /     \_/ __ \ /    \|  |  \
+    |  Y Y  \/ __ \|  |   |  \ |  Y Y  \  ___/|   |  \  |  /
+    |__|_|  (____  /__|___|  / |__|_|  /\___  >___|  /____/ 
+          \/     \/        \/        \/     \/     \/       
+                                                    ";
+    Console.WriteLine(title);
     Console.WriteLine("What would you like to browse?");
     Console.WriteLine("\nA. ASCII Cats \nB. Buzzfeed Quiz \nC. Homemade Cookie Recipe \n");
-    string choice = Console.ReadLine().ToUpper();
 
+    string choice = Console.ReadLine().ToUpper();
     switch (choice)
     {
         case "A":
@@ -86,6 +95,16 @@ static void Cats()
 
 static void Buzzfeed()
 {
+    string title = @"
+    __________                        _____                 .___
+    \______   \__ ___________________/ ____\____   ____   __| _/
+     |    |  _/  |  \___   /\___   /\   __\/ __ \_/ __ \ / __ | 
+     |    |   \  |  //    /  /    /  |  | \  ___/\  ___// /_/ | 
+     |______  /____//_____ \/_____ \ |__|  \___  >\___  >____ | 
+            \/            \/      \/           \/     \/     \/ 
+                                                            ";
+    Console.WriteLine(title);
+
     Console.WriteLine("( Enter 'Z' to quit to menu )");
     Console.WriteLine("BUZZFEED! This simple question will decide what kind of cake you are. Pick one:");
     Console.WriteLine("A. Cat \nB. Dog \nC. Mouse \nD. Horse");
@@ -123,7 +142,16 @@ static void Buzzfeed()
 
 static void Cookies()
 {
-    Console.WriteLine("Chocolate Chip Cookies");
+    string title = @"
+    _________ .__                    _________ .__    .__         _________                __   .__               
+    \_   ___ \|  |__   ____   ____   \_   ___ \|  |__ |__|_____   \_   ___ \  ____   ____ |  | _|__| ____   ______
+    /    \  \/|  |  \ /  _ \_/ ___\  /    \  \/|  |  \|  \____ \  /    \  \/ /  _ \ /  _ \|  |/ /  |/ __ \ /  ___/
+    \     \___|   Y  (  <_> )  \___  \     \___|   Y  \  |  |_> > \     \___(  <_> |  <_> )    <|  \  ___/ \___ \ 
+     \______  /___|  /\____/ \___  >  \______  /___|  /__|   __/   \______  /\____/ \____/|__|_ \__|\___  >____  >
+            \/     \/            \/          \/     \/   |__|             \/                   \/       \/     \/ 
+                                                                     ";
+    Console.WriteLine(title);
+
     Console.WriteLine("A classic recipe from 'Better Homes and Cooking'");
     Console.WriteLine("Makes about 40 1-tbsp cookies");
     Console.WriteLine();
